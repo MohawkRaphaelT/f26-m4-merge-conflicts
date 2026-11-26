@@ -5,5 +5,13 @@ namespace MohawkGame2D;
 
 public class Player
 {
-    // game stuf here
+    public void Setup()
+    {
+
+    }
+
+    public void Update()
+    {
+
+    }
 }
