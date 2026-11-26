@@ -15,7 +15,8 @@ public class Game
     /// </summary>
     public void Setup()
     {
-
+        Window.SetTitle("Best Game");
+        Window.SetSize(1920, 1080);
     }
 
     /// <summary>
@@ -23,6 +24,6 @@ public class Game
     /// </summary>
     public void Update()
     {
-
+        Window.ClearBackground(Color.OffWhite);
     }
 }
